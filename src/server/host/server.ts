@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
     res.send('hello world out there');
 });
 
-var server = app.listen(3000, () => {
+
+var server = app.listen(process.env.PORT || 3000, () => {
     var host : string = server.address().address;
     var port : number = server.address().port;
     console.log('aintro is listening on %s', port);
