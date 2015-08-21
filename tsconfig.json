@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/server/host/server.ts",
+        "./typings/angular2/angular2.d.ts",
+        "./typings/es6-promise/es6-promise.d.ts",
+        "./typings/express/express.d.ts",
+        "./typings/mime/mime.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/rx/rx-lite.d.ts",
+        "./typings/rx/rx.d.ts",
+        "./typings/serve-static/serve-static.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
