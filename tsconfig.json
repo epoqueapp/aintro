@@ -15,6 +15,7 @@
         "./src/client/app/bootstrap.ts",
         "./src/client/app/components/app.ts",
         "./src/client/app/components/header.ts",
+        "./src/client/app/components/navigation.ts",
         "./src/client/app/components/preloader.ts",
         "./src/client/app/components/profile.ts",
         "./src/client/app/components/resume.ts",
