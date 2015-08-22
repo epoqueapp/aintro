@@ -12,8 +12,16 @@
         "!./node_modules/**/*.ts"
     ],
     "files": [
+        "./src/client/app/bootstrap.ts",
+        "./src/client/app/components/app.ts",
+        "./src/client/app/components/header.ts",
+        "./src/client/app/components/preloader.ts",
+        "./src/client/app/components/profile.ts",
+        "./src/client/app/components/resume.ts",
+        "./src/client/app/components/start.ts",
         "./src/server/host/server.ts",
         "./typings/angular2/angular2.d.ts",
+        "./typings/angular2/router.d.ts",
         "./typings/es6-promise/es6-promise.d.ts",
         "./typings/express/express.d.ts",
         "./typings/mime/mime.d.ts",
