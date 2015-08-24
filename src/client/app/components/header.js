@@ -11,10 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 /// <reference path="../../../../typings/tsd.d.ts"/>
 var angular2_1 = require('angular2/angular2');
+var Rx = require('rx');
 var navigation_1 = require('./navigation');
 var Header = (function () {
     function Header() {
         this.tagline = "tagline";
+        Rx.
+        ;
     }
     Header = __decorate([
         angular2_1.Component({

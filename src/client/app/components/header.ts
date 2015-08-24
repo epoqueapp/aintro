@@ -50,5 +50,7 @@
         tagline: string;
         constructor(){
             this.tagline = "tagline"
+
+            Rx.
         }
     }
