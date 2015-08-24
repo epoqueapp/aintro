@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 /// <reference path="../../../../typings/tsd.d.ts"/>
 var angular2_1 = require('angular2/angular2');
+var router_1 = require('angular2/router');
 var Navigation = (function () {
     function Navigation() {
     }
@@ -19,7 +20,8 @@ var Navigation = (function () {
             selector: 'navigation'
         }),
         angular2_1.View({
-            template: "\n      <nav class=\"navigation\">\n          <ul class=\"list-unstyled\">\n              <li class=\"profile active\">\n                  <a href=\"index.php#profile\" class=\"profile link_menu\"><i class=\"fa fa-user icon_menus\"></i><span class=\"nav-label\">profile</span></a>\n              </li>\n              <li class=\"resume\">\n                  <a href=\"index.php#resume\" class=\"resume link_menu\"><i class=\"fa fa-tasks icon_menus\"></i> <span class=\"nav-label\">resume</span></a>\n              </li>\n              <li class=\"contact\">\n                  <a href=\"index.php#contact\" class=\"contact link_menu\"><i class=\"fa fa-paper-plane icon_menus\"></i> <span class=\"nav-label\">contact</span></a>\n              </li>\n\n          </ul>\n      </nav>\n      "
+            directives: [router_1.RouterLink],
+            templateUrl: '/partials/navigation.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Navigation);

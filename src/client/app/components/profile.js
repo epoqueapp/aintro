@@ -19,7 +19,7 @@ var Profile = (function () {
             selector: 'profile'
         }),
         angular2_1.View({
-            template: '<h1>Profile</h1>'
+            templateUrl: '/partials/profile.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Profile);

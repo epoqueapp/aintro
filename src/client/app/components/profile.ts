@@ -6,7 +6,7 @@ import { RouterLink, RouteParams } from 'angular2/router';
   selector: 'profile'
 })
 @View({
-  template: '<h1>Profile</h1>'
+  templateUrl: '/partials/profile.html'
 })
 export class Profile {
 
