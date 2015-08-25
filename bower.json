@@ -16,6 +16,11 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "system.js": "~0.18.11",
+    "traceur-runtime": "~0.0.91",
+    "jquery.nicescroll": "~3.6.0",
+    "rxjs": "~3.1.1",
+    "fontawesome": "~4.4.0"
   }
 }

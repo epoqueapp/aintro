@@ -1,0 +1,34 @@
+{
+  "name": "rxjs",
+  "main": "dist/rx.all.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reactive-Extensions/RxJS.git"
+  },
+  "license": "Apache-2.0",
+  "ignore": [
+    ".sh",
+    ".*",
+    "*.bat",
+    "*.md",
+    "*.txt",
+    "*.log",
+    "package.json",
+    "node_modules",
+    "doc",
+    "examples",
+    "src",
+    "tests"
+  ],
+  "homepage": "https://github.com/Reactive-Extensions/RxJS",
+  "version": "3.1.1",
+  "_release": "3.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.1",
+    "commit": "e45e54cc36ea77b60c9258e009103453ad4f026a"
+  },
+  "_source": "git://github.com/Reactive-Extensions/RxJS.git",
+  "_target": "~3.1.1",
+  "_originalSource": "rxjs"
+}
