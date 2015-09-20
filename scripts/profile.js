@@ -17,6 +17,7 @@ $(document).ready(function () {
 
         init: function () {
             var myDropzone = this;
+
             //You can do this
             $('#your_button_id').on("click", function (e) {
                 myDropzone.removeAllFiles(true);

@@ -38,8 +38,7 @@ require('./routes/profile.js')(app);
 require('./routes/home.js')(app);
 
 app.post('/upload', upload.single('image'), function (req, res) {
-    console.log(req.body) // form fields
-    console.log(req.files) // form files
+    console.log(req.file);
     res.status(204).end()
 });
 

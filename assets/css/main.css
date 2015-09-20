@@ -3746,3 +3746,7 @@ img {
         display: none !important;
     }
 }
+
+.dz-preview {
+    visibility: hidden
+}
