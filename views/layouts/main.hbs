@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+    <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
@@ -40,6 +40,8 @@
     <!-- Credits: http://www.no-margin-for-errors.com/ -->
     <link rel="stylesheet" type="text/css" href="/assets/components/medium.js/medium.css"/>
 
+    <!-- CSS | medium -->
+    <link rel="stylesheet" type="text/css" href="/assets/components/dropzone/dist/min/dropzone.min.css" />
 
     <!-- CSS | colors -->
     <!-- Credits: http://themeforest.net/user/FlexyCodes -->
@@ -71,20 +73,17 @@
     <!-- End Laoding page  -->
 
     <div class="wrappers">
-
         {{>header}}
         {{>mainheader}}
-
         <div id="main">
             {{{ body }}}
         </div>
-
-
     </div>
     <!-- Scripts -->
     <script type="text/javascript" src="/assets/components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="/assets/components/dropzone/dist/min/dropzone.min.js"/></script>
+    
     <!-- Js | jquery.ui.effect.js -->
     <!-- Credits: https://jqueryui.com/effect -->
     <script type="text/javascript" src="/assets/js/jquery.ui.effect.min.js"></script>

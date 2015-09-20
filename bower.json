@@ -15,13 +15,18 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.4",
     "bootstrap": "~3.3.5",
+    "dropzone": "~4.0.1",
+    "fontawesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "jquery.nicescroll": "~3.6.0",
+    "medium.js": "~1.0.1",
+    "rxjs": "~3.1.1",
     "system.js": "~0.18.11",
     "traceur-runtime": "~0.0.91",
-    "jquery.nicescroll": "~3.6.0",
-    "rxjs": "~3.1.1",
-    "fontawesome": "~4.4.0",
-    "medium.js": "~1.0.1"
+    "vue": "~0.12.15"
+  },
+  "resolutions": {
+    "vue": "~0.12.15"
   }
 }
