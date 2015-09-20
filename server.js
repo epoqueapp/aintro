@@ -8,13 +8,11 @@ app.set('view engine', '.hbs');
 app.use('/assets', express.static('assets'));
 app.use('/scripts', express.static('scripts'));
 
-app.get('/', function (req, res) {
-  res.render('profile');
-});
-
-app.get('/resume', function (req, res) {
-  res.render('resume');
-});
+require('./routes/login.js')(app);
+require('./routes/register.js')(app);
+require('./routes/resume.js')(app);
+require('./routes/profile.js')(app);
+require('./routes/home.js')(app);
 
 var port = process.env.PORT || 3000;
 var server = app.listen(port, function () {
