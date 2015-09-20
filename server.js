@@ -53,6 +53,7 @@ app.use(function (req, res, next) {
 app.use('/assets', express.static('assets'));
 app.use('/scripts', express.static('scripts'));
 
+require('./routes/backend.js')(app);
 require('./routes/users.js')(app);
 require('./routes/login.js')(app);
 require('./routes/register.js')(app);
