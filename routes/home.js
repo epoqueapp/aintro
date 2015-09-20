@@ -2,6 +2,6 @@
 
 module.exports = function (app) {
 	app.get('/', function (req, res) {
-		res.redirect('/mbalex99');
+		res.redirect('/login');
 	});
 };

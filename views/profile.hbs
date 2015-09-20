@@ -8,33 +8,20 @@
 
         <!-- .block-header -->
         <div class="block-header">
-
             <!-- .my_profile -->
             <div class="row no-marg my_profile">
-
-                <div class="col-xs-12 col-md-6 no-padd image_profile profile-image-upload">
-                    <!--<div class="overfly"></div>-->
-                </div>
-
-                <div class="col-xs-12 col-md-6 no-padd image_profile_resp profile-image-upload">
-                    <div class="home_profile_resp profile-image-upload">
-                        <img src="" alt="">
-                    </div>
-                </div>
-
                 <!-- .info_profile -->
-                <div class="col-xs-12 col-md-6 no-padd info_profile">
+                <div class="col-xs-12 col-md-12 no-padd info_profile">
                     <!-- .bg_desc -->
-                    <div class="bg_desc clearfix">
+                    <div class="clearfix">
                         <div class="inner-text">
-                            <h2 id="profile-name" >I am John Doe</h2>
-                            <small class="myjob" id="profile-tagline">web developer</small>
-
+                            <h2 id="profile-name">{{user.name}}</h2>
+                            <small class="myjob" id="profile-tagline">{{user.tagline}}</small>
                             <div class="feature-desc" id="profile-desc">
-                                <p>Lorem ipsum dolor sit amet duis. Arcu faucibus nisi eget arcu varius. Con libero in suspendisse ac aliquam. Laoreet lacinia purus. Sollicitudin eros sed. <br/> <br/> Egestas massa quam ea maecenas nonummy hymenaeos ligula maecenas ullamcorper convallis quis iaculis elit nec. Tortor vestibulum nunc. Eu pede vestibulum. Facilisis erat elementum eget dolor odio. Quis faucibus sed tempor nascetur arcu eget imperdiet sit vitae nulla maecenas. Consectetuer mauris felis ut nisl turpis. Vitae vehicula velit. Ut libero rhoncus pharetra a rhoncus. Interdum sunt elementum vivamus sit vivamus integer orci vestibulum. Urna sollicitudin dui sapien quis dui. Diam vestibulum at. Justo malesuada neque feugiat.</p>
+                                <p>
+                                    {{user.summary}}
+                                </p>
                             </div>
-                            
-                            <button id="test-button">Amazing</button>
                         </div>
                     </div>
                     <!-- End .bg_desc -->

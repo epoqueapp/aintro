@@ -5,14 +5,14 @@
     <div class="container">
         <div class="card card-container">
             <p id="profile-name" class="profile-name-card">Login</p>
-            <form class="form-signin">
+            <form class="form-signin" action="/login" method="post">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <input type="password" id="inputPassword" class="form-control inputPassword" placeholder="Password" required>
+                <input name="username" type="text" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+                <input name="password" type="password" id="inputPassword" class="form-control inputPassword" placeholder="Password" required>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
             </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                Forgot the password?
+            <a href="/register" class="forgot-password">
+                No Account? Register!
             </a>
         </div><!-- /card-container -->
     </div><!-- /container -->
