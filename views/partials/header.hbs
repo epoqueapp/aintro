@@ -4,18 +4,24 @@
         <i class="fa fa-times"></i>
     </div>
     <div class="logo">
-        <a href="#"><img src="http://placehold.it/122x122" width="122" height="122" alt="Logo"></a>
+        <a href="#"><img src="/assets/images/saskia.jpg" width="122" height="122" alt="Logo"></a>
     </div>
-    <h4 class="tagline">Maximilian Alexander</h4>
+    <h4 class="tagline" id="sidebar-name">Maximilian Alexander</h4>
 
     <!-- .navigation -->
     <nav class="navigation">
         <ul class="list-unstyled">
-            <li class="profile active">
-                <a href="/{{user.username}}" class=""><i class="fa fa-user icon_menus"></i><span class="nav-label">profile</span></a>
+            <li class="profile">
+                <a href="/{{thisUsername}}" class=""><i class="fa fa-user icon_menus"></i><span class="nav-label">profile</span></a>
             </li>
             <li class="resume">
-                <a href="/{{user.username}}/resume" class=""><i class="fa fa-tasks icon_menus"></i> <span class="nav-label">resume</span></a>
+                <a href="/{{thisUsername}}/resume" class=""><i class="fa fa-tasks icon_menus"></i> <span class="nav-label">resume</span></a>
+            </li>
+            <li class="resume" id="logout-menu-item">
+                <a href="/logout" class=""><i class="fa fa-lock icon_menus"></i> <span class="nav-label">logout</span></a>
+            </li>
+            <li class="resume" id="login-menu-item">
+                <a href="/login" class=""><i class="fa fa-lock icon_menus"></i> <span class="nav-label">logout</span></a>
             </li>
         </ul>
     </nav>
